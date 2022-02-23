@@ -48,10 +48,10 @@ while (contador != 0) {
             break
         }
         if (otravez == "No"){
-            alert(`Entonces te ${quedaresultadoFinal1}`)
+            alert(`Entonces te queda ${resultadoFinal1}`)
             break
         }    
         else{
-            alert("Entrada no valida, tienes 2 intentos")
+            alert("Entrada no valida, solo tienes 2 intentos")
         }   
 }             
