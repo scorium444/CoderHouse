@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #111;
+    margin: 60px 30px;
+    padding: 15px;
+}
+
+.form{
+    min-width: 40px;
+    flex: 1;
+    text-align: right;
+    padding: 30px;
+    order: 3;
+    
+}
+.form__imput{
+    width: 100%;
+    padding: 4px;
+    margin: 6px 0%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #156;
+    color: #fff;
+    order: 2;
+}
+.form__imput:focus {
+    background: linear-gradient(to bottom, transparent, #222);
+    outline: none;
+    border-bottom: 3px solid #158;
+}
+.form-image{
+    flex: 1;
+    display: flex;
+    padding: 1px;
+    order: 1;
+    min-width: 300px;
+}
+.form-image div{
+        border-radius: 95%;
+        background-color: #156;
+        padding: 10px;
+        margin: 10px;
+}
+.form-image img {
+        border-radius: 95%;
+        width: 100%; 
+        margin: auto;
+}
+.form textarea{
+    min-height: 140px;
+}
+.form input[type="Submit"] {
+    background-color: #156;
+}
